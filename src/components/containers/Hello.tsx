@@ -177,7 +177,7 @@ const Hello = () => {
             </Paragraph>
             <Paragraph mb={30} width={430}>
               If you have job offers then write to my email below, or you can write to me in other
-              social networks (they are on the left).
+              social networks.
             </Paragraph>
             <a href="mailto:nazarii.dev@gmail.com">
               <Button onClick={() => {}}>Get in touch</Button>
