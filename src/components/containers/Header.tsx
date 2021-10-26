@@ -22,12 +22,12 @@ const StyledHeader = styled.header`
   background-color: rgba(30, 14, 55, 0.6);
   backdrop-filter: blur(10px);
 
-  a {
+  & > a {
     margin-right: auto;
     cursor: pointer;
   }
 
-  a:last-child {
+  & > a:last-child {
     margin-right: 20px;
   }
 
