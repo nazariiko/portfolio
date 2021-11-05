@@ -157,15 +157,19 @@ const About = () => {
                 <div className="myPhoto"></div>
               </div>
             </MyPhoto>
-            <Paragraph width={450} mb={20}>
-              I'm just a regular internet guy. I want to develop as a front-end developer, meet
-              other developers and implement web interfaces on interesting commercial projects.
+            <Paragraph>I'm 19 and I'm from Kyiv.</Paragraph>
+            <Paragraph width={540} mb={20}>
+              I love programming interface logic and am also a big fan of beautiful UI and effective
+              UX design.
             </Paragraph>
-            <Paragraph width={490} mb={20}>
+            <Paragraph mb={20}>
+              I want to develop as a front-end developer, meet other developers and implement web
+              interfaces in interesting projects.
+            </Paragraph>
+            <Paragraph width={490}>
               Experience: I had a few freelance jobs writing HTML code, but main experience in
               ReactJS is my pet-projects.
             </Paragraph>
-            <Paragraph>if you are still here, thanks for your interest!</Paragraph>
           </StyledLeftContent>
           <StyledRightContent>
             <div className="reactLogo">

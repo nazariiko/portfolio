@@ -7,25 +7,13 @@ import Skills from './components/containers/Skills';
 import Works from './components/containers/Works';
 import Contacts from './components/containers/Contacts';
 import Footer from './components/containers/Footer';
-import ScrollProgress from './components/ScrollProgress';
+import ScrollBar from './components/ScrollBar';
 import Social from './components/Social';
 
-import { calculateScrollDistance } from './helpers/scrollProgress';
-
 function App() {
-  const [scrollPosition, setScrollPosition] = React.useState(0);
-
-  React.useEffect(() => {
-    document.addEventListener('scroll', () => {
-      requestAnimationFrame(() => {
-        setScrollPosition(calculateScrollDistance());
-      });
-    });
-  }, []);
-
   return (
     <div>
-      <ScrollProgress scroll={scrollPosition + '%'} />
+      <ScrollBar />
       <Header />
       <Hello />
       <About />

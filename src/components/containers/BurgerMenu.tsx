@@ -22,6 +22,14 @@ const StyledBurgerMenu = styled.div`
   right: 0;
   bottom: 0;
   background-color: ${(props) => props.theme.background};
+
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
 `;
 
 const Navigation = styled.div`
@@ -81,9 +89,14 @@ const BurgerMenu: React.FC<BurgerMenuProps> = ({ onClose }) => {
         </Link>
       </Navigation>
       <BurgerSocial />
-      <Button outlined onClick={() => {}}>
-        Resume
-      </Button>
+      <a
+        href="https://drive.google.com/file/d/1aJSEon8BP3MacawI1qyMg9Zr7B6nkOnC/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer">
+        <Button outlined onClick={() => {}}>
+          Resume
+        </Button>
+      </a>
       <Close onClick={onClose}>
         <svg
           width="27"
