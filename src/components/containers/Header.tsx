@@ -36,6 +36,14 @@ const StyledHeader = styled.header`
     justify-content: space-between;
     align-items: center;
 
+    a,
+    a:hover,
+    a:focus,
+    a:active {
+      text-decoration: none;
+      color: inherit;
+    }
+
     a:nth-child(4) {
       margin-right: 20px;
     }
@@ -98,9 +106,14 @@ const Header = () => {
           duration={500}>
           <NavigationItem number={'04.'} text={'Contacts'} dashed />
         </Link>
-        <Button outlined onClick={() => {}}>
-          Resume
-        </Button>
+        <a
+          href="https://drive.google.com/file/d/1aJSEon8BP3MacawI1qyMg9Zr7B6nkOnC/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer">
+          <Button outlined onClick={() => {}}>
+            Resume
+          </Button>
+        </a>
       </div>
       <Button className="burger-navigation" onClick={handleClickBurgerMenu}>
         <svg

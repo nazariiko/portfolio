@@ -101,6 +101,7 @@ const Works = () => {
           <MyWorks>
             <WorksBox align={'rightImg'} work={works[0]} />
             <WorksBox align={'leftImg'} work={works[1]} />
+            <WorksBox align={'rightImg'} work={works[2]} />
           </MyWorks>
         </div>
       </div>
