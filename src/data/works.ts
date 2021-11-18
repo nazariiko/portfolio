@@ -1,6 +1,8 @@
 import crypto from '../assets/images/crypto.png';
 import todo from '../assets/images/todo.png';
 import pizzas from '../assets/images/pizzas.png';
+import volk from '../assets/images/volk.png';
+import tiktok from '../assets/images/tiktok.png';
 
 const works = [
   {
@@ -11,6 +13,23 @@ const works = [
     image: crypto,
     www: 'https://react-cryptographio.vercel.app',
     github: 'https://github.com/nazariiko/react-cryptographio',
+  },
+  {
+    name: 'TikTok Genesis Case',
+    description: 'Test task for the Genesis Front-End School. Simple analog TikTok',
+    stack: ['React', 'Typescript', 'Redux', 'Thunk', 'styled-components', 'TikTok Radip API'],
+    image: tiktok,
+    www: 'https://nazariiko-genesis-case.vercel.app',
+    github: 'https://github.com/nazariiko/private-gen-case',
+  },
+  {
+    name: 'Volkivskyi Personal',
+    description:
+      'Personal site of Mykola Volkivskyi - Ukrainian political scientist, public figure, poet, president of the First International Development Fund of Ukraine',
+    stack: ['React', 'Typescript', 'Redux', 'i18next', 'styled-components', 'react-scroll'],
+    image: volk,
+    www: 'https://volkivskyi.com',
+    github: 'https://github.com/nazariiko/volkivskiy-website',
   },
   {
     name: 'React ToDo',
