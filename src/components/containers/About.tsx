@@ -157,7 +157,7 @@ const About = () => {
                 <div className="myPhoto"></div>
               </div>
             </MyPhoto>
-            <Paragraph>I'm 19 and I'm from Kyiv.</Paragraph>
+            <Paragraph>I'm 20 and I'm from Kyiv.</Paragraph>
             <Paragraph width={540} mb={20}>
               I love programming interface logic and am also a big fan of beautiful UI and effective
               UX design.
@@ -165,10 +165,6 @@ const About = () => {
             <Paragraph mb={20}>
               I want to develop as a front-end developer, meet other developers and implement web
               interfaces in interesting projects.
-            </Paragraph>
-            <Paragraph width={490}>
-              Experience: I had a few freelance jobs writing HTML code, but main experience in
-              ReactJS is my pet-projects.
             </Paragraph>
           </StyledLeftContent>
           <StyledRightContent>

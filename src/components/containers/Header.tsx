@@ -107,7 +107,7 @@ const Header = () => {
           <NavigationItem number={'04.'} text={'Contacts'} dashed />
         </Link>
         <a
-          href="https://drive.google.com/file/d/1CbiWsol11TgZ_vgzwxa2DzuuB5FGUV9h/view?usp=sharing"
+          href="https://drive.google.com/file/d/1uGVyf7wxPZ1qcDzsGr9yfkaYbTRsZdmY/view?usp=sharing"
           target="_blank"
           rel="noreferrer">
           <Button outlined onClick={() => {}}>
